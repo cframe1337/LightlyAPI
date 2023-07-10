@@ -537,17 +537,3 @@ function LightlyAPI(tab, section, sectiontab, func, value)
         os:toast("LightlyAPI: Unknown function called at -> /*")
     end
 end
-
-function open_menu()
-    LightlyAPI("globals", "main", "movement", "strafe", true)
-    LightlyAPI("globals", "main", "movement", "bhop", true)
-    LightlyAPI("globals", "main", "aim", "aim", true)
-    LightlyAPI("globals", "main", "aim", "auto-shooting", true)
-    LightlyAPI("globals", "main", "aim", "auto-stop-speed", 5.0)
-    LightlyAPI("globals", "main", "aim", "sniper/head", true)
-    LightlyAPI("globals", "main", "aim", "sniper/body", true)
-    LightlyAPI("globals", "main", "aim", "sniper/arms", true)
-    LightlyAPI("globals", "main", "aim", "sniper/legs", true)
-    LightlyAPI("globals", "main", "aim", "sniper/auto-scope", true)
-end
-cheat:registercallback("luatab", open_menu)
