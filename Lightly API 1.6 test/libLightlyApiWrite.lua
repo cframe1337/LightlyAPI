@@ -1,4 +1,4 @@
-local RVT = loadfile("libRVT.lua")
+local RVT = loadfile("https://raw.githubusercontent.com/cframe1337/LightlyAPI/main/Lightly%20API%201.6%20test/libRVT.lua")
 
 local function write(tab, section, sectiontab, func, value)
     if tab == "globals" then
