@@ -1,15 +1,3 @@
---[[ 
-    Lightly API v1.5 - RVT
-
-    # Updated at 11.07.2023 (0:00)
-
-    - If value type is not equeals menu value type, value not sets
-    - RVT uses for protect value set from crash and bugs
-
-    Lightly API GitHub: https://github.com/cframe1337/LightlyAPI
-    Lightly API Creator Telegram: @hackthread
-]]--
-
 function RVT(value)
     if value ~= nil then
         if type(value) == "string" then
