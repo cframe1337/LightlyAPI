@@ -4,3 +4,4 @@
 * LightlyAPI - сохрани свое время на поиск значений
 * LightlyAPI - первый Open Source Lib для Alternativesoft Lua API
 
+кринж. 
